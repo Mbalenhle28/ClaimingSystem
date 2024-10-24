@@ -1,0 +1,11 @@
+<Window x:Class="ClaimingSystem.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Claims Management System" Height="300" Width="400">
+	<Grid>
+		<StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+			<Button Content="Open Claim Submission" Click="OpenSubmissionForm_Click" Margin="10" Width="200"/>
+			<Button Content="Open Claims Verification" Click="OpenVerificationView_Click" Margin="10" Width="200"/>
+		</StackPanel>
+	</Grid>
+</Window>

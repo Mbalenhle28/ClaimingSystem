@@ -1,0 +1,12 @@
+<Window x:Class="ClaimingSystem.ErrorHandlingPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Error Handling" Height="200" Width="400">
+	<Grid>
+		<StackPanel Margin="20">
+			<TextBlock Text="Oops! An Error Occurred" FontWeight="Bold" FontSize="20" Foreground="Red" HorizontalAlignment="Center"/>
+			<TextBlock Name="ErrorMessageTextBlock" TextWrapping="Wrap" Margin="0,10,0,10" FontSize="14" Foreground="Black" />
+			<Button Content="Close" Width="100" Height="30" Click="CloseButton_Click" HorizontalAlignment="Center"/>
+		</StackPanel>
+	</Grid>
+</Window>
